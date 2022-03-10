@@ -1,0 +1,29 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-push-links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header img {
+    height: 65px;
+    padding: 5px 15px;
+
+}
