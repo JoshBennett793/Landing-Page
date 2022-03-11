@@ -80,12 +80,38 @@ button {
     border: 1px solid silver;
 }
 
-img {
+.info-panel img {
     border: 4px solid silver;
     border-radius: 15px;
-    max-width: 300px;
+    max-width: 180px;
+    max-height: 200px;
 }
 
 .info-panel {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.subtext {
+    max-width: 180px;
+    gap: 12px;
+    border: 4px solid transparent;
+    margin: 15px 0px;
 }
