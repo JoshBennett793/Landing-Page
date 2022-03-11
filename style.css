@@ -119,7 +119,7 @@ button {
     margin: 15px 0px;
 }
 
-.quote {
+.quote-panel {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -132,27 +132,40 @@ button {
     color: #F9FAF8;
 }
 
+.quote {
+    align-self: center;
+}
+
 .call-to-action {
     margin: 50px 150px;
     padding: 18px;
     border-radius: 8px;
     background-color: #31517e;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
-}
-
-.cta-text {
-    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .call-to-action button {
     border-radius: 12px;
     padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .cta-button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    background-color: #31517e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    height: 50px;
 }
